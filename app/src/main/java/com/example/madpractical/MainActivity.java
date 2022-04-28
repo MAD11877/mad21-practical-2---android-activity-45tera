@@ -18,14 +18,6 @@ public class MainActivity extends AppCompatActivity {
         //New user on start
         but = findViewById(R.id.follow);
 
-        //button change
-        // but.setOnClickListener((View.OnClickListener) this);
-        //but.setOnClickListener(new View.OnClickListener()){
-        // public void onClick(View v){
-        // log.v()
-        // }
-        // }
-
         if (!user1.followed){
             but.setText("Follow");
         }
